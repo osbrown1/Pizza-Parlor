@@ -39,5 +39,9 @@ function calculateCost() {
     }
   }
 
+// Create new pizza object
+let pizza = new Pizza(size, selectedToppings)
 
+// Display cost
+document.getElementById("cost").innerHTML = "Total cost: $" + pizza.calculateCost();
 }
