@@ -28,8 +28,8 @@ Pizza.prototype.calculateCost = function() {
 
 function calculateCost() {
   // Get size and toppings from form
-  const size = document.getElementById("size").value;
-  const toppings = document.getElementsByName("toppings");
+  let size = document.getElementById("size").value;
+  let toppings = document.getElementsByName("toppings");
   let selectedToppings = [];
 
   // Add selected toppings to array
@@ -40,4 +40,4 @@ function calculateCost() {
   }
 
 
-
+}
