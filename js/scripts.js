@@ -18,10 +18,12 @@ Pizza.prototype.calculateCost = function() {
     cost += 14;
   }
 
+// Add cost for toppings
+  for (let i = 0; i < this.toppings.length; i++) {
+    cost += toppingCost;
+  }
 
-
-
-
+  return cost;
 }
 
 
