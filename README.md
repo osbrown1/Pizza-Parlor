@@ -1,6 +1,6 @@
 Describe: Pizza()
 
-Test: "It displays object with properties and consolelog by typing 'Pizza'"
+Test: "It should display object with properties and console.log by typing 'Pizza'"
 Code: 
 this.size = size;
 this.toppings = toppings;
@@ -9,3 +9,7 @@ Expected Output: Pizza(size, toppings) {
   this.toppings = toppings;
   console.log('Pizza object is created')
 }
+
+Test: "Pizza object is created with correct size"
+Code: 
+const 

@@ -17,8 +17,8 @@ Pizza.prototype.calculateCost = function() {
   } else if (this.size === "large") {
     cost += 14;
   }
+console.log("small");
 
-  
 
 
 
