@@ -26,5 +26,18 @@ Pizza.prototype.calculateCost = function() {
   return cost;
 }
 
+function calculateCost() {
+  // Get size and toppings from form
+  const size = document.getElementById("size").value;
+  const toppings = document.getElementsByName("toppings");
+  let selectedToppings = [];
+
+  // Add selected toppings to array
+  for (let i = 0; i < toppings.length; i++) {
+    if (toppings[i].checked) {
+      selectedToppings.push(toppings[i].value);
+    }
+  }
+
 
 
