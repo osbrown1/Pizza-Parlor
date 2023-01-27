@@ -1,6 +1,11 @@
-Describe: 'Pizza.prototype.calculateCost()'
+Describe: Pizza()
 
-Test: "It calculate the cost of small pizza no toppings
-Code: Pizza(size, toppings)
-Expected Output: Pizza(size, toppings)
-
+Test: "It displays object with properties and consolelog by typing 'Pizza'"
+Code: 
+this.size = size;
+this.toppings = toppings;
+Expected Output: Pizza(size, toppings) {
+  this.size = size;
+  this.toppings = toppings;
+  console.log('Pizza object is created')
+}

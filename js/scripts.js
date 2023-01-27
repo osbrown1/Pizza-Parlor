@@ -8,6 +8,7 @@ function Pizza(size, toppings) {
 Pizza.prototype.calculateCost = function() {
   let cost = 0;
   let toppingCost = 0.50;
+  
   // Add cost for size
   if (this.size === "small") {
     cost += 10;
@@ -17,11 +18,12 @@ Pizza.prototype.calculateCost = function() {
     cost += 14;
   }
 
-  // Add cost for toppings
-  for (let i = 0; i < this.toppings.length; i++) {
-    cost += toppingCost;
-  }
+  
 
-  return cost;
+
+
+
 }
+
+
 
