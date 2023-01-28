@@ -10,6 +10,11 @@ body {
   text-shadow: 2px 2px #ffa600;
   }
   
+  h2 {
+    font-size: 2em;
+    color: rgba(212, 209, 12, 0.995);
+    }
+
   form {
   background-color: rgba(201, 41, 41, 0.7);
   padding: 2em;
