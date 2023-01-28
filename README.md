@@ -10,6 +10,7 @@ Expected Output: Pizza(size, toppings) {
   console.log('Pizza object is created')
 }
 
-Test: "Pizza object is created with correct size"
+Test: "It should display new Pizza object with a size of "medium" and toppings "cheese" and "pepperoni""
 Code: 
-const 
+let pizza = new Pizza("medium", ["cheese", "pepperoni"]); console.log(pizza);
+Expected Output: {size: 'small', toppings:}

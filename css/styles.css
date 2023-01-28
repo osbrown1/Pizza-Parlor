@@ -1,11 +1,61 @@
 body {
-  background-color: rgb(104, 225, 225);
-}
-
-body {
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-}
-
-form {
-  display: inline-block;
-}
+  background-color: black;
+  }
+  
+  h1 {
+  font-size: 3em;
+  color: rgba(212, 209, 12, 0.995);
+  text-shadow: 2px 2px #ffa600;
+  }
+  
+  form {
+  background-color: rgba(201, 41, 41, 0.7);
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 2px 2px #ffa600;
+  margin: 3em auto;
+  }
+  
+  label {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffa600;
+  }
+  
+  select {
+  font-size: 1.5em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: none;
+  box-shadow: 2px 2px #ffa600;
+  background-color: #f5f5f5;
+  }
+  
+  input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 0 1em;
+  }
+  
+  button {
+  font-size: 1.5em;
+  padding: 0.5em 2em;
+  border-radius: 0.5em;
+  background-color: #ffa600;
+  color: white;
+  border: none;
+  box-shadow: 2px 2px #ffa600;
+  cursor: pointer;
+  }
+  
+  button:hover {
+  background-color: #ff8c00;
+  }
+  
+  #cost {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffa600;
+  margin-top: 1em;
+  }
