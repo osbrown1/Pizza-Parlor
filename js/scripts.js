@@ -30,16 +30,18 @@ function calculateCost() {
   // Get size and toppings from form
   let size = document.getElementById("size").value;
   let toppings = document.getElementsByName("toppings");
+  // To store the selected toppings
   let selectedToppings = [];
 
-  // Add selected toppings to array
+
+  // Iterates over form elements named "toppings"
   for (let i = 0; i < toppings.length; i++) {
     if (toppings[i].checked) {
       selectedToppings.push(toppings[i].value);
     }
   }
 
-// Create new pizza object
+// Create new pizza object with size and selected toppings based on user input from form
 let pizza = new Pizza(size, selectedToppings)
 
 // Display cost
